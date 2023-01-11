@@ -23,12 +23,13 @@ project {
     background-color: #DFDFDF;
     margin: 2.5vh 2.5vw 2.5vh 2.5vw;
     border-radius: 5px;
-    padding: 10px;
+    padding: 0 2.5vw 0 2.5vw;
     box-sizing: border-box;
 }
 
 project h2 {
     flex: 0.3;
+    font-size: 2.5vw;
 }
 
 project p {
@@ -58,11 +59,15 @@ project a:hover {
 @media (max-width: 800px) {
 
     projects {
-        height: 100vh;
+        height: 90vh;
     }
 
     projectsflex {
         flex-direction: column;
+    }
+
+    project h2 {
+        font-size: 3vw;
     }
 
     project a {
@@ -70,6 +75,6 @@ project a:hover {
     }
 
     project a:hover {
-        font-size: 3vw;
+        font-size: 3.2vw;
     }
 }
