@@ -11,7 +11,7 @@ html {
 
 body {
     /*background-color: #5A9AC6;*/
-    background-color: #CFE7F9;
+    background-color: #E2E8FC ;
 }
 
 header {
@@ -20,7 +20,8 @@ header {
     justify-content: center;
     align-items: stretch;
     position: fixed;
-    background-color: #BCE6F6;
+    /*background-color: #BCE6F6;*/
+    background-color: #DFDFDF;
     height: 10vh;
     width: 100vw;
     z-index: 99;

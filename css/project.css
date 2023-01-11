@@ -20,17 +20,20 @@ project {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: #BCE6F6;
+    background-color: #DFDFDF;
     margin: 2.5vh 2.5vw 2.5vh 2.5vw;
     border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 project h2 {
-    flex: 2;
+    flex: 0.3;
 }
 
-project a, project p {
-    flex: 1;
+project p {
+    flex: 0.2;
+    font-size: 2vw;
 }
 
 project h2, project a, project p {
@@ -41,10 +44,11 @@ project h2, project a, project p {
 }
 
 project a {
+    flex: 0.3;
+    font-size: 3vw;
     text-transform: none;
     text-decoration: none;
     color: #0B4973;
-    font-size: 2vw;
 }
 
 project a:hover {
@@ -54,7 +58,7 @@ project a:hover {
 @media (max-width: 800px) {
 
     projects {
-        height: 90vh;
+        height: 100vh;
     }
 
     projectsflex {
