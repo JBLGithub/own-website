@@ -1,0 +1,28 @@
+home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+home h1 {
+    overflow: hidden;
+    border-right: .15em solid #055978;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    font-size: 3vw;
+    animation: 
+        typing 2.5s steps(40, end),
+        blink-caret 1.0s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #055978; }
+}

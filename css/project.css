@@ -1,0 +1,47 @@
+projects sectiontitle {
+    width: 100vw;
+}
+
+projectsflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+project {
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    height: 35vh;
+    background-color: #89CFFF;
+    margin: 2.5vh 2.5vw 2.5vh 2.5vw;
+    border-radius: 5px;
+}
+
+project h2 {
+    flex: 2;
+}
+
+project a, project p {
+    flex: 1;
+}
+
+project h2, project a, project p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+project a {
+    text-transform: none;
+    text-decoration: none;
+    color: #0B4973;
+    font-size: .9vw;
+}
+
+project a:hover {
+    font-size: 1vw;
+}

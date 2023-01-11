@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous',Verdana, Geneva, Tahoma, sans-serif;
+    color: #034776;
+}
+
+body {
+    background-color: #5A9AC6;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    position: fixed;
+    background-color: #BCE6F6;
+    height: 10vh;
+    width: 100vw;
+    z-index: 99;
+}
+
+header a {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    color: #0B4973;
+    font-size: 1.5vw;
+}
+
+#headerspacing {
+    height: 10vh;
+}
+
+sectiontitle {
+    display: flex;
+    text-align: center;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+}

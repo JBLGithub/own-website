@@ -1,0 +1,25 @@
+technologies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+technologies sectiontitle {
+    width: 100vw;
+}
+
+technology {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D2EAFB;
+    width: 5vw;
+    height: 5vw;
+    margin: 2.5vh 2.5vw 2.5vh 2.5vw;
+    border-radius: 5px;
+}
+
+technology img {
+    max-height: 4vw;
+    max-width: 4vw;
+}
