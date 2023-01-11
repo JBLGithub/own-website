@@ -46,6 +46,14 @@ aboutmetext p {
         flex-direction: column;
     }
 
+    myimage {
+        margin: 0 2.5vw 0 2.5vw;
+    }
+
+    aboutmetext {
+        margin: 0 2.5vw 2.5vh 2.5vw;
+    }
+
     aboutmetext p {
         font-size: 3vw;
     }

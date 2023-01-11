@@ -75,10 +75,10 @@ project a:hover {
     }
 
     project a {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     project a:hover {
-        font-size: 3.2vw;
+        font-size: 4.5vw;
     }
 }

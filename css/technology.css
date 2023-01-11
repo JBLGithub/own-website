@@ -2,6 +2,7 @@ technologies {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 50vh;
 }
 
 technologies sectiontitle {
@@ -20,6 +21,17 @@ technology {
 }
 
 technology img {
-    max-height: 4vw;
-    max-width: 4vw;
+    display: flex;
+    max-height: 80%;
+    max-width: 80%;
+}
+
+@media (max-width: 800px) {
+    technologies {
+        height: 90vh;
+    }
+    technology {
+        width: 15vw;
+        height: 15vw;
+    }
 }

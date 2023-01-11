@@ -1,7 +1,7 @@
 experiences {
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    height: 40vh;
 }
 
 experiences sectiontitle {
@@ -13,7 +13,7 @@ experience {
     display: flex;
     flex-direction: column;
     background-color: #DFDFDF;
-    margin: 2.5vh 2.5vw 2.5vh 2.5vw;
+    margin: 1vh 2.5vw 1vh 2.5vw;
     padding: 0 2.5vw 0 2.5vw;
     border-radius: 5px;
 }
@@ -33,6 +33,11 @@ experience p {
 }
 
 @media (max-width: 800px) {
+
+    experiences {
+        height: 90vh;
+    }
+
     experience h2 {
         font-size: 3.5vw;
     }
