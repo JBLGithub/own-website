@@ -49,7 +49,7 @@ project a {
     font-size: 2vw;
     text-transform: none;
     text-decoration: none;
-    color: #0B4973;
+    color: #6C6D70;
 }
 
 project a:hover {
@@ -67,11 +67,11 @@ project a:hover {
     }
 
     project h2 {
-        font-size: 3.5vw;
+        font-size: 4.5vw;
     }
 
     project p {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     project a {
