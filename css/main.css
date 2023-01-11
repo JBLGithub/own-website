@@ -5,6 +5,10 @@
     color: #034776;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #5A9AC6;
 }
@@ -29,6 +33,7 @@ header a {
     margin: 5px;
     color: #0B4973;
     font-size: 1.5vw;
+    text-decoration: none;
 }
 
 #headerspacing {
