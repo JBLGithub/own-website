@@ -33,7 +33,7 @@ aboutme sectiontitle {
 
 aboutmetext p {
     flex: 0.6;
-    font-size: 3vw;
+    font-size: 2vw;
     text-align: center;
 }
 
@@ -41,6 +41,10 @@ aboutmetext p {
 
     aboutme {
         flex-direction: column;
+    }
+
+    aboutmetext p {
+        font-size: 3vw;
     }
 
 }
