@@ -9,6 +9,7 @@ myimage {
     position: relative;
     display: flex;
     justify-content: center;
+    margin: 2.5vh 2.5vw 2.5vh 2.5vw;
 }
 
 myimage img {
@@ -25,7 +26,7 @@ aboutmetext {
     background-color: #DFDFDF;
     padding: 0 2.5vw 0 2.5vw;
     box-sizing: border-box;
-    margin: 0 2.5vw 0 2.5vw;
+    margin: 2.5vh 2.5vw 2.5vh 2.5vw;
     border-radius: 5px;
 }
 
