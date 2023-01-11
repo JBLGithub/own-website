@@ -1,6 +1,6 @@
 projects {
     display: flex;
-    height: 90vh;
+    height: 50vh;
     flex-direction: column;
 }
 
@@ -52,7 +52,16 @@ project a:hover {
 }
 
 @media (max-width: 800px) {
+
+    projects {
+        height: 90vh;
+    }
+
     projectsflex {
         flex-direction: column;
+    }
+
+    project a {
+        font-size: 3vw;
     }
 }
