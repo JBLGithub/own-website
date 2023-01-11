@@ -20,7 +20,7 @@ project {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: #89CFFF;
+    background-color: #BCE6F6;
     margin: 2.5vh 2.5vw 2.5vh 2.5vw;
     border-radius: 5px;
 }
