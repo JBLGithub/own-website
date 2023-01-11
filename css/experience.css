@@ -25,19 +25,19 @@ experience h2, experience p {
 }
 
 experience h2 {
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 experience p {
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 @media (max-width: 800px) {
     experience h2 {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     
     experience p {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 }

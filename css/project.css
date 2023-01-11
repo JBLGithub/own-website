@@ -29,12 +29,12 @@ project {
 
 project h2 {
     flex: 0.3;
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 
 project p {
     flex: 0.2;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 project h2, project a, project p {
@@ -46,7 +46,7 @@ project h2, project a, project p {
 
 project a {
     flex: 0.3;
-    font-size: 3vw;
+    font-size: 2vw;
     text-transform: none;
     text-decoration: none;
     color: #0B4973;
@@ -67,6 +67,10 @@ project a:hover {
     }
 
     project h2 {
+        font-size: 3.5vw;
+    }
+
+    project p {
         font-size: 3vw;
     }
 
