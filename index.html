@@ -13,89 +13,95 @@
         <link rel="stylesheet" type="text/css" href="css/experience.css">
         <link rel="stylesheet" type="text/css" href="css/technology.css">
         <link rel="stylesheet" type="text/css" href="css/anchor.css">
+        <script src="js/header.js"></script>
 
         <!-- meta data -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <header>
-            <a href="#homeanchor">home</a>
-            <a href="#aboutanchor">about me</a>
-            <a href="#projectanchor">projects</a>
-            <a href="#experienceanchor">experiences</a>
-            <a href="#technologyanchor">technologies</a>
+        <header id="header">
+            <links id="headerlinks">
+                <a href="#homeanchor" onclick="linkClicked()">home</a>
+                <a href="#aboutanchor" onclick="linkClicked()">about me</a>
+                <a href="#projectanchor" onclick="linkClicked()">projects</a>
+                <a href="#experienceanchor" onclick="linkClicked()">experiences</a>
+                <a href="#technologyanchor" onclick="linkClicked()">technologies</a>
+            </links>
+            <button id="headerbutton" onclick="headerClicked()"><headerswitch><hr/><hr/><hr/></headerswitch></button>
         </header>
-        <div id="headerspacing"></div>
-        <anchor id="homeanchor"></anchor>
-        <home>
-            <div>
-                <h1>Welcome to my website...</h1>
-            </div>
-        </home>
-        <anchor id="aboutanchor"></anchor>
-        <aboutme>
-            <myimage>
-                <img src="images/me.png"/>
-            </myimage>
-            <aboutmetext>
-                <sectiontitle><h1>About Me</h1></sectiontitle>
-                <p>I am a student at the university of St-Andrews currently reading computer science to a masters level.</p>
-                <p>Some of my activities including skiing, sailing, scuba diving and when I'm not in the wilderness I'm usually enhancing my knowledge in networking and security.</p>
-            </aboutmetext>
-        </aboutme>
-        <anchor id="projectanchor"></anchor>
-        <projects>
-            <sectiontitle><h1>Projects</h1></sectiontitle>
-            <projectsflex>
-                <project>
-                    <h2>OpenVPN Server</h2>
-                    <p>Script that launches an OpenVPN server.</p>
-                    <p>Runs in a rootless cointainer using a restricted agent.</p>
-                    <a href="https://github.com/JBLGithub/openvpn-server">github ></a>
-                </project>
-                <project>
-                    <h2>Active Information Gathering Script</h2>
-                    <p>Script that launches a reconnaissance scan against a given network. </p>
-                    <p>Runs in a rootless cointainer using a restricted agent.</p>
-                    <a href="https://github.com/Tectagon/active-information-gathering">github ></a>
-                </project>
-            </projectsflex>
-        </projects>
-        <anchor id="experienceanchor"></anchor>
-        <experiences>
-            <sectiontitle><h1>Experiences</h1></sectiontitle>
-            <experience>
-                <h2>Clevermed Ltd - 2021/22</h2>
-                <p>intern - developed migration tool to migrate company tasks to Microsoft Devops Boards.</p>
-            </experience>
-            <experience>
-                <h2>Clevermed Ltd - Summer 2020</h2>
-                <p>junior software engineer - managed company’s service statistics and logs while plotting results on Grafana.</p>
-            </experience>
-        </experiences>
-        <anchor id="technologyanchor"></anchor>
-        <technologies>
-            <sectiontitle><h1>Technology</h1></sectiontitle>
-            <technology><img src="images/tech/java.png" /></technology>
-            <technology><img src="images/tech/csharp.png" /></technology>
-            <technology><img src="images/tech/azure.png" /></technology>
-            <technology><img src="images/tech/grafana.png" /></technology>
-            <technology><img src="images/tech/elastic-search.png" /></technology>
-            <technology><img src="images/tech/sql.png" /></technology>
-            <technology><img src="images/tech/linux.png" /></technology>
-            <technology><img src="images/tech/node-js.png" /></technology>
-            <technology><img src="images/tech/react.png" /></technology>
-            <technology><img src="images/tech/nginx.png" /></technology>
-            <technology><img src="images/tech/html5.png" /></technology>
-            <technology><img src="images/tech/css3.png" /></technology>
-            <technology><img src="images/tech/javascript.png" /></technology>
-            <technology><img src="images/tech/typescript.png" /></technology>
-            <technology><img src="images/tech/php.png" /></technology>
-            <technology><img src="images/tech/python.png" /></technology>
-            <technology><img src="images/tech/c.png" /></technology>
-            <technology><img src="images/tech/latex.png" /></technology>
-            <technology><img src="images/tech/swift.png" /></technology>
-            <technology><img src="images/tech/haskell.png" /></technology>
-        </technologies>
+        <main id="main">
+            <div id="headerspacing"></div>
+            <anchor id="homeanchor"></anchor>
+            <home>
+                <div>
+                    <h1>Welcome to my website...</h1>
+                </div>
+            </home>
+            <anchor id="aboutanchor"></anchor>
+            <aboutme>
+                <myimage>
+                    <img src="images/me.png"/>
+                </myimage>
+                <aboutmetext>
+                    <sectiontitle><h1>About Me</h1></sectiontitle>
+                    <p>I am a student at the university of St-Andrews currently reading computer science to a masters level.</p>
+                    <p>Some of my activities including skiing, sailing, scuba diving and when I'm not in the wilderness I'm usually enhancing my knowledge in networking and security.</p>
+                </aboutmetext>
+            </aboutme>
+            <anchor id="projectanchor"></anchor>
+            <projects>
+                <sectiontitle><h1>Projects</h1></sectiontitle>
+                <projectsflex>
+                    <project>
+                        <h2>OpenVPN Server</h2>
+                        <p>Script that launches an OpenVPN server.</p>
+                        <p>Runs in a rootless cointainer using a restricted agent.</p>
+                        <a href="https://github.com/JBLGithub/openvpn-server">github ></a>
+                    </project>
+                    <project>
+                        <h2>Active Information Gathering Script</h2>
+                        <p>Script that launches a reconnaissance scan against a given network. </p>
+                        <p>Runs in a rootless cointainer using a restricted agent.</p>
+                        <a href="https://github.com/Tectagon/active-information-gathering">github ></a>
+                    </project>
+                </projectsflex>
+            </projects>
+            <anchor id="experienceanchor"></anchor>
+            <experiences>
+                <sectiontitle><h1>Experiences</h1></sectiontitle>
+                <experience>
+                    <h2>Clevermed Ltd - 2021/22</h2>
+                    <p>intern - developed migration tool to migrate company tasks to Microsoft Devops Boards.</p>
+                </experience>
+                <experience>
+                    <h2>Clevermed Ltd - Summer 2020</h2>
+                    <p>junior software engineer - managed company’s service statistics and logs while plotting results on Grafana.</p>
+                </experience>
+            </experiences>
+            <anchor id="technologyanchor"></anchor>
+            <technologies>
+                <sectiontitle><h1>Technology</h1></sectiontitle>
+                <technology><img src="images/tech/java.png" /></technology>
+                <technology><img src="images/tech/csharp.png" /></technology>
+                <technology><img src="images/tech/azure.png" /></technology>
+                <technology><img src="images/tech/grafana.png" /></technology>
+                <technology><img src="images/tech/elastic-search.png" /></technology>
+                <technology><img src="images/tech/sql.png" /></technology>
+                <technology><img src="images/tech/linux.png" /></technology>
+                <technology><img src="images/tech/node-js.png" /></technology>
+                <technology><img src="images/tech/react.png" /></technology>
+                <technology><img src="images/tech/nginx.png" /></technology>
+                <technology><img src="images/tech/html5.png" /></technology>
+                <technology><img src="images/tech/css3.png" /></technology>
+                <technology><img src="images/tech/javascript.png" /></technology>
+                <technology><img src="images/tech/typescript.png" /></technology>
+                <technology><img src="images/tech/php.png" /></technology>
+                <technology><img src="images/tech/python.png" /></technology>
+                <technology><img src="images/tech/c.png" /></technology>
+                <technology><img src="images/tech/latex.png" /></technology>
+                <technology><img src="images/tech/swift.png" /></technology>
+                <technology><img src="images/tech/haskell.png" /></technology>
+            </technologies>
+        </main>
     </body>
 </html>

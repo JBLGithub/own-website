@@ -1,15 +1,15 @@
 experiences {
     display: flex;
     flex-direction: column;
-    height: 40vh;
+    height: 60vh;
 }
 
 experiences sectiontitle {
-    flex: 1.5;
+    flex: 0.4;
 }
 
 experience {
-    flex: 1;
+    flex: 0.6;
     display: flex;
     flex-direction: column;
     background-color: #89CFFF;

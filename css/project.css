@@ -1,20 +1,25 @@
+projects {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+}
+
 projects sectiontitle {
-    width: 100vw;
+    flex: 0.2;
 }
 
 projectsflex {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
+    flex: 0.8;
 }
 
 project {
     display: flex;
     flex-direction: column;
-    width: 45vw;
-    height: 35vh;
+    flex: 1;
     background-color: #89CFFF;
     margin: 2.5vh 2.5vw 2.5vh 2.5vw;
     border-radius: 5px;
@@ -39,9 +44,15 @@ project a {
     text-transform: none;
     text-decoration: none;
     color: #0B4973;
-    font-size: .9vw;
+    font-size: 2vw;
 }
 
 project a:hover {
-    font-size: 1vw;
+    font-size: 3vw;
+}
+
+@media (max-width: 800px) {
+    projectsflex {
+        flex-direction: column;
+    }
 }
